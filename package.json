@@ -1,6 +1,6 @@
 {
   "name": "date-compare",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Compare dates",
   "main": "date-compare.js",
   "scripts": {
