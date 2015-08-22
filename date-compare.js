@@ -1,8 +1,8 @@
-exports.dateCompare = function(howManyDaysAgo) {
+exports.dateCompare = function(dateToCheck, howManyDaysAgo) {
   var today = new Date();
   var dynoDate = new Date();
   dynoDate.setDate(dynoDate.getDate() - howManyDaysAgo);
-  if (today >= howManyDaysAgo) {
+  if (dynoDate >= dateToCheck) {
     console.log("BEFORE");
     return true;
   } else {
